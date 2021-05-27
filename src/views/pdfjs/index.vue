@@ -1,5 +1,5 @@
 <template>
-  <div>fabricjs</div>
+  <div>pdfjs</div>
 </template>
 
 <script>

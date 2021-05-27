@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>布局学习</div>
 </template>
 
 <script>

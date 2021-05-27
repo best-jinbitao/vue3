@@ -17,19 +17,63 @@ export default {
           name: "简介",
         },
         {
-          path: "/",
-          name: "简介",
+          path: "/element",
+          name: "element",
         },
         {
-          path: "/",
-          name: "简介",
+          path: "/copy",
+          name: "copy",
+        },
+        {
+          path: "/axios",
+          name: "axios",
+        },
+        {
+          path: "/pdfjs",
+          name: "pdfjs",
+        },
+        {
+          path: "/canvas",
+          name: "canvas",
+        },
+        {
+          path: "/fabricjs",
+          name: "fabricjs",
+        },
+        {
+          path: "/map",
+          name: "map",
+        },
+        {
+          path: "/echarts",
+          name: "echarts",
+        },
+        {
+          path: "/wordcloud",
+          name: "wordcloud",
+        },
+        {
+          path: "/database",
+          name: "database",
+        },
+        {
+          path: "/css",
+          name: "布局",
+        },
+        {
+          path: "/animation",
+          name: "动画",
+        },
+        {
+          path: "/qrcode",
+          name: "二维码",
         },
       ],
     };
   },
   methods: {
     handleSelect(key, keyPath) {
-      console.log(key, keyPath);
+      console.log('当前页面', key, keyPath);
     },
   },
 };
